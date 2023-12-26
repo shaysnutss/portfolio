@@ -9,7 +9,7 @@ function App() {
         <p>
           Dance <code>src/App.js</code> and save to reload.
         </p>
-        <h1>Hello test</h1>
+        <h1>Hello is the issue a terminal</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
