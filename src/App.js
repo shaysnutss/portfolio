@@ -4,7 +4,6 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
-import Navbar from "./Navbar";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 function App() {
