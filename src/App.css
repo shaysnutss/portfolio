@@ -2,20 +2,6 @@
   text-align: center;
 }
 
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 div .animation{
   position: fixed;
   top: 0;
@@ -34,6 +20,13 @@ div .animation{
   align-items: center;
 }
 
+
+
+
+
+
+
+/********************************* */
 #layer2{
   background-color: #61dafb;
 }

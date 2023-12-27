@@ -1,21 +1,21 @@
-.App{
+/* .App{
     display:flex;
     flex-direction:row;
-}
+} */
 
 @font-face {
     font-family: 'digital-clock-font';
     src: url('../font.ttf');
 }
 
-.App .title{
+/* .App .title{
     font-family: 'digital-clock-font';
     color:#B453A4;
     font-size: 4vw;
     font-weight: '400';
     margin: 15rem;
     width:32vw;
-}
+} */
 
 div .animation {
     position: fixed;
@@ -28,3 +28,28 @@ div .animation {
     /* background: transparent; */
     /* Makes it transparent */
 }
+
+/* Styles for small screens (e.g., tablets in portrait) */
+@media only screen and (max-width: 1920px) {
+
+    /* Add responsive CSS rules for tablets in portrait mode here */
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        /* bottom:90%;
+        padding-top: 190%; */
+    }
+
+    .flexContainer .title {
+        font-family: 'digital-clock-font';
+        color: #B453A4;
+        font-size: 5.5vw;
+        font-weight: '400';
+    }
+}
+
+
+
+
+
