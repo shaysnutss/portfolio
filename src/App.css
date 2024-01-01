@@ -16,6 +16,11 @@ div .animation{
 
 .center {
   display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+#layer1{
   justify-content: center;
   align-items: center;
 }

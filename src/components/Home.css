@@ -37,6 +37,8 @@ div .animation {
         display: flex;
         flex-direction: column;
         position: relative;
+        justify-content: center;
+        align-items: center;
         /* bottom:90%;
         padding-top: 190%; */
     }
@@ -46,6 +48,7 @@ div .animation {
         color: #B453A4;
         font-size: 5.5vw;
         font-weight: '400';
+        
     }
 }
 

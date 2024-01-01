@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Parallax pages={3}>
-        <ParallaxLayer offset={0} className="center">
+        <ParallaxLayer offset={0} className="center" id="layer1">
           <Home />
         </ParallaxLayer>
         <ParallaxLayer offset={1} className="center" id="layer2">
