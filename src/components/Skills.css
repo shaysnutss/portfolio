@@ -73,7 +73,6 @@
         display: none;
     }
 
-    
 }
 
 
@@ -82,8 +81,8 @@
     .flexBigContainer {
         display: flex;
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
+        justify-content: center;
+        align-items: center;
         position: relative;
         left: 5%;
     }
@@ -94,7 +93,7 @@
         font-size: 4vw;
         font-weight: '300';
         position: relative;
-        top: 6%;
+        /* top: 6%; */
         left: 3%;
     }
 
@@ -108,9 +107,9 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 7%;
+        /* top: 7%; */
         left: 3%;
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     #techStackContainer {
@@ -147,7 +146,7 @@
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1440px){
+@media (min-width: 1025px) and (max-width: 1680px){
     .flexBigContainer {
         display: flex;
         flex-direction: column;
@@ -163,13 +162,14 @@
         font-size: 3.5vw;
         font-weight: '300';
         position: relative;
+        left:10%;
         
     }
 
     .flexBigContainer .flexBodyContainer {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        
     }
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer {
@@ -184,9 +184,6 @@
         margin-bottom: 25%;
     }
 
-    .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
-        display: none;
-    }
 
     #skillTitles {
         font-family: 'digital-clock-font';
@@ -199,31 +196,35 @@
     #imagesContainer {
         display: flex;
         flex-direction: row;
-        width: 9vw;
-        height: 9vh;
+        width: 7vw;
+        height: 7vh;
         position: relative;
         top: 15%;
+        transform: scale(0.9);
     }
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexDevopsContainer .flexDevOpsImagesContainer img {
         margin-right: 0.2vw;
     }
 
-    /* .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer {
-        transform: scale(1.1);
-    } */
+    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer {
+        transform: scale(0.9);
+    }
+
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer img {
         margin-right: 0.4vw;
     }
 
-    /* .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
+    .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
         position: relative;
         left: 140%;
         top: 30%;
         transform: scale(1.25);
-    } */
+    }
 }
+
+
 
 
 /* .flexBigContainer{
