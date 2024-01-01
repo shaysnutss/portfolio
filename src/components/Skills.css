@@ -51,18 +51,15 @@
     #imagesContainer {
         display: flex;
         flex-direction: row;
-        width: 8vw;
-        height: 8vh;
+        width: 5vw;
+        height: 5vh;
         position:relative;
         top:15%;
+        
     }
     
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexDevopsContainer .flexDevOpsImagesContainer img {
         margin-right: 0.2vw;
-    }
-
-    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer {
-        transform: scale(1.1);
     }
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer img {
@@ -90,7 +87,7 @@
     .flexBigContainer .title {
         font-family: 'digital-clock-font';
         color: #B453A4;
-        font-size: 4vw;
+        font-size: 5vw;
         font-weight: '300';
         position: relative;
         /* top: 6%; */
@@ -101,6 +98,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .flexBigContainer .titleContainer {
+        position: relative;
+        left:6%;
     }
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer {
@@ -146,7 +148,7 @@
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1680px){
+@media (min-width: 1025px) and (max-width: 1440px){
     .flexBigContainer {
         display: flex;
         flex-direction: column;
@@ -216,12 +218,193 @@
         margin-right: 0.4vw;
     }
 
-    .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
+    /* .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
         position: relative;
         left: 140%;
         top: 30%;
         transform: scale(1.25);
+    } */
+
+    .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
+        display: none;
     }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .flexBigContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 5%;
+    }
+
+    .flexBigContainer .title {
+        font-family: 'digital-clock-font';
+        color: #B453A4;
+        font-size: 3.5vw;
+        font-weight: '300';
+        position: relative;
+        /* left: 10%; */
+    }
+
+    .flexBigContainer .titleContainer{
+        position:relative;
+        right: 30%
+
+    }
+
+    .flexBigContainer .flexBodyContainer {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 4%;
+
+    }
+
+    #techStackContainer {
+        margin-bottom: 25%;
+    }
+
+
+    #skillTitles {
+        font-family: 'digital-clock-font';
+        color: #B453A4;
+        font-size: 2.5vw;
+        font-weight: '300';
+        margin-top: 6%;
+    }
+
+    #imagesContainer {
+        display: flex;
+        flex-direction: row;
+        width: 7vw;
+        height: 7vh;
+        position: relative;
+        top: 15%;
+        transform: scale(0.9);
+    }
+
+    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexDevopsContainer .flexDevOpsImagesContainer img {
+        margin-right: 0.2vw;
+    }
+
+    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer {
+        transform: scale(0.9);
+    }
+
+
+    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer img {
+        margin-right: 0.4vw;
+    }
+
+    .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
+        position: relative;
+        left: 110%;
+        top: 25%;
+        transform: scale(1.7);
+        width:30vw;
+        height:40vh;
+    }
+
+    /* .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
+        display: none;
+    } */
+}
+
+@media (min-width: 1921px) and (max-width: 2560px) {
+    .flexBigContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 5%;
+    }
+
+    .flexBigContainer .title {
+        font-family: 'digital-clock-font';
+        color: #B453A4;
+        font-size: 3.5vw;
+        font-weight: '300';
+        position: relative;
+        /* left: 10%; */
+    }
+
+    .flexBigContainer .titleContainer {
+        position: relative;
+        right: 25%
+    }
+
+    .flexBigContainer .flexBodyContainer {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 4%;
+
+    }
+
+    #techStackContainer {
+        margin-bottom: 25%;
+    }
+
+
+    #skillTitles {
+        font-family: 'digital-clock-font';
+        color: #B453A4;
+        font-size: 2.5vw;
+        font-weight: '300';
+        margin-top: 6%;
+    }
+
+    #imagesContainer {
+        display: flex;
+        flex-direction: row;
+        width: 7vw;
+        height: 7vh;
+        position: relative;
+        top: 15%;
+        transform: scale(0.9);
+    }
+
+    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexDevopsContainer .flexDevOpsImagesContainer img {
+        margin-right: 0.2vw;
+    }
+
+    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer {
+        transform: scale(0.9);
+    }
+
+
+    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer img {
+        margin-right: 0.4vw;
+    }
+
+    .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
+        position: relative;
+        left: 150%;
+        top: 65%;
+        transform: scale(2.4);
+        /* width: 25vw; */
+        /* height: 40vh; */
+    }
+
+    /* .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
+        display: none;
+    } */
 }
 
 

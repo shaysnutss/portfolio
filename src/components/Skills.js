@@ -5,7 +5,9 @@ import Spline from '@splinetool/react-spline';
 export default function Skills() {
     return (
     <div className= "flexBigContainer">
-      <h1 id="flexBigChild" className = "title">Skills</h1>
+      <div id="flexBigChild" className= "titleContainer" >
+        <h1 className = "title">Skills</h1>
+      </div>
       <div id="flexBigChild" className = "flexBodyContainer">
         <div  className = "flexLeftBodyContainer">
           <div id="techStackContainer" className = "flexFrontendContainer">
@@ -43,14 +45,6 @@ export default function Skills() {
           </div>
         </div>
       </div>
-      {/* <div className ="background">
-        <div className = "flexChild" id = "text">
-          hi
-        </div>
-        <div id="splineElement" className = "flexChild">
-          <Spline scene="https://prod.spline.design/4eGoYUAlhmc2I3ch/scene.splinecode" />
-        </div>
-      </div> */}
     </div>
     
     )
