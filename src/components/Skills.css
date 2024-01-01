@@ -51,8 +51,8 @@
     #imagesContainer {
         display: flex;
         flex-direction: row;
-        width: 5vw;
-        height: 5vh;
+        width: 6vw;
+        height: 6vh;
         position:relative;
         top:15%;
         
@@ -87,11 +87,11 @@
     .flexBigContainer .title {
         font-family: 'digital-clock-font';
         color: #B453A4;
-        font-size: 5vw;
+        font-size: 3vw;
         font-weight: '300';
         position: relative;
         /* top: 6%; */
-        left: 3%;
+        /* left: 3%; */
     }
 
     .flexBigContainer .flexBodyContainer {
@@ -100,15 +100,16 @@
         justify-content: space-evenly;
     }
 
-    .flexBigContainer .titleContainer {
+    /* .flexBigContainer .titleContainer {
         position: relative;
         left:6%;
-    }
+    } */
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer {
         display: flex;
         flex-direction: column;
         position: relative;
+        top: 2%;
         /* top: 7%; */
         left: 3%;
         /* height: 100vh; */
@@ -121,16 +122,16 @@
     #skillTitles {
         font-family: 'digital-clock-font';
         color: #B453A4;
-        font-size: 3vw;
+        font-size: 2vw;
         font-weight: '300';
-        /* margin-top: 6%; */
+        margin-top: 6%;
     }
 
     #imagesContainer {
         display: flex;
         flex-direction: row;
-        width: 8vw;
-        height: 8vh;
+        width: 7vw;
+        height: 7vh;
         position: relative;
         top: 15%;
     }
@@ -160,30 +161,33 @@
 
     .flexBigContainer .titleContainer {
         position: relative;
-        right: 32%
+        right: 30%;
+        top:-5%;
     }
 
     .flexBigContainer .title {
         font-family: 'digital-clock-font';
         color: #B453A4;
-        font-size: 3.5vw;
+        font-size: 3vw;
         font-weight: '300';
         position: relative;
-        left:10%;
+        /* left:10%; */
         
     }
 
     .flexBigContainer .flexBodyContainer {
         display: flex;
         flex-direction: row;
-        
+        justify-content: space-evenly;
     }
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer {
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 4%;
+        /* top: 4%; */
+        top: -5%;
+        left: 3%;
         
     }
 
@@ -195,7 +199,7 @@
     #skillTitles {
         font-family: 'digital-clock-font';
         color: #B453A4;
-        font-size: 2.5vw;
+        font-size: 2vw;
         font-weight: '300';
         margin-top: 6%;
     }
@@ -203,36 +207,28 @@
     #imagesContainer {
         display: flex;
         flex-direction: row;
-        width: 7vw;
-        height: 7vh;
+        width: 7.8vw;
+        height: 7.8vh;
         position: relative;
         top: 15%;
-        transform: scale(0.9);
+        
     }
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexDevopsContainer .flexDevOpsImagesContainer img {
         margin-right: 0.2vw;
     }
 
-    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer {
-        transform: scale(0.9);
-    }
-
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer img {
-        margin-right: 0.4vw;
+        margin-right: 0.5vw;
     }
 
     .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
         position: relative;
-        left: 90%;
-        top: 20%;
-        transform: scale(1.25);
+        left: 100%;
+        top: 3%;
+        transform: scale(1.3);
     }
-
-    /* .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
-        display: none;
-    } */
 }
 
 @media (min-width: 1441px) and (max-width: 1920px) {
@@ -248,7 +244,7 @@
     .flexBigContainer .title {
         font-family: 'digital-clock-font';
         color: #B453A4;
-        font-size: 3.5vw;
+        font-size: 2.8vw;
         font-weight: '300';
         position: relative;
         /* left: 10%; */
@@ -256,13 +252,14 @@
 
     .flexBigContainer .titleContainer{
         position:relative;
-        right: 30%
+        right: 33%
 
     }
 
     .flexBigContainer .flexBodyContainer {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
 
     }
 
@@ -270,19 +267,20 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        top: 4%;
+        top: 2%;
+        left: 3%;
 
     }
 
     #techStackContainer {
-        margin-bottom: 25%;
+        margin-bottom: 10%;
     }
 
 
     #skillTitles {
         font-family: 'digital-clock-font';
         color: #B453A4;
-        font-size: 2.5vw;
+        font-size: 1.8vw;
         font-weight: '300';
         margin-top: 6%;
     }
@@ -290,21 +288,16 @@
     #imagesContainer {
         display: flex;
         flex-direction: row;
-        width: 7vw;
-        height: 7vh;
+        width: 8vw;
+        height: 8vh;
         position: relative;
-        top: 15%;
-        transform: scale(0.9);
+        top: -5%;
+        /* transform: scale(0.9); */
     }
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexDevopsContainer .flexDevOpsImagesContainer img {
         margin-right: 0.2vw;
     }
-
-    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer {
-        transform: scale(0.9);
-    }
-
 
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer img {
         margin-right: 0.4vw;
@@ -313,8 +306,7 @@
     .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
         position: relative;
         left: 110%;
-        top: 25%;
-        transform: scale(1.7);
+        transform: scale(1.4);
         width:30vw;
         height:40vh;
     }
