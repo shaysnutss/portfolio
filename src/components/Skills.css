@@ -158,6 +158,11 @@
         left: 5%;
     }
 
+    .flexBigContainer .titleContainer {
+        position: relative;
+        right: 32%
+    }
+
     .flexBigContainer .title {
         font-family: 'digital-clock-font';
         color: #B453A4;
@@ -218,16 +223,16 @@
         margin-right: 0.4vw;
     }
 
-    /* .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
+    .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
         position: relative;
-        left: 140%;
+        left: 90%;
         top: 30%;
         transform: scale(1.25);
-    } */
-
-    .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
-        display: none;
     }
+
+    /* .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
+        display: none;
+    } */
 }
 
 @media (min-width: 1441px) and (max-width: 1920px) {
@@ -398,8 +403,6 @@
         left: 150%;
         top: 65%;
         transform: scale(2.4);
-        /* width: 25vw; */
-        /* height: 40vh; */
     }
 
     /* .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
