@@ -401,7 +401,7 @@
     .flexBigContainer .flexBodyContainer .flexRightBodyContainer {
         position: relative;
         left: 150%;
-        top: 65%;
+        top: 50%;
         transform: scale(2.4);
     }
 
