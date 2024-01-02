@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'digital-clock-font';
+    src: url('../font.ttf');
+}
+
+@media only screen and (max-width: 768px){
+    .BigFlexContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .BigFlexContainer .background{
+        display: none;
+    }
+
+    .BigFlexContainer .flexRightContainer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .BigFlexContainer .flexRightContainer .containerTitle {
+        position: relative;
+        left:57%;
+        /* left: 140%; */
+    }
+
+    .BigFlexContainer .flexRightContainer .containerTitle .titlePage {
+        font-family: 'digital-clock-font';
+        color: #B453A4;
+        font-size: 5vw;
+        font-weight: '300';
+        position: relative;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .BigFlexContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* .BigFlexContainer .background {
+        position: relative;
+        top: 10%;
+        right: 4%;
+        
+    } */
+
+    /* .flexBigContainer .background img {
+        position: relative;
+        z-index: -1;
+    } */
+
+    .BigFlexContainer .background {
+        display: none;
+    }
+
+    .BigFlexContainer .flexRightContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BigFlexContainer .flexRightContainer .containerTitle {
+        position: relative;
+        left: 57%;
+    }
+
+    .BigFlexContainer .flexRightContainer .containerTitle .titlePage {
+        font-family: 'digital-clock-font';
+        color: #B453A4;
+        font-size: 5vw;
+        font-weight: '300';
+        position: relative;
+    }
+
+    .BigFlexContainer .flexRightContainer .content{
+        
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .BigFlexContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .BigFlexContainer .background {
+        position: relative;
+        top: 10%;
+        /* right: 4%; */
+    }
+
+    .flexBigContainer .background img {
+        position: relative;
+        z-index: -1;
+        
+    }
+
+
+    .BigFlexContainer .flexRightContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BigFlexContainer .flexRightContainer .containerTitle {
+        position: relative;
+        left:3%;
+    }
+
+    .BigFlexContainer .flexRightContainer .containerTitle .titlePage {
+        font-family: 'digital-clock-font';
+        color: #B453A4;
+        font-size: 3vw;
+        font-weight: '300';
+        position: relative;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px){
+    .BigFlexContainer {
+            display: flex;
+            flex-direction: row;
+        }
+    
+    .BigFlexContainer .background {
+        position: relative;
+        top: 10%;
+        
+        /* right: 4%; */
+
+    }
+
+    .flexBigContainer .background img {
+        position: relative;
+        z-index: -1;
+        
+
+    }
+
+
+    .BigFlexContainer .flexRightContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BigFlexContainer .flexRightContainer .containerTitle {
+        position: relative;
+        left: 2.5%;
+    }
+
+    .BigFlexContainer .flexRightContainer .containerTitle .titlePage {
+        font-family: 'digital-clock-font';
+        color: #B453A4;
+        font-size: 2.7vw;
+        font-weight: '300';
+        position: relative;
+    }
+}
+
+
+/* .BigFlexContainer{
+    display:flex;
+    flex-direction:row;
+} */
+
+/* .BigFlexContainer .background{
+    position: relative;
+    top:10%;
+    width: 20vw;
+    height: 20vw;
+}
+
+.flexBigContainer .background img{
+    position: relative;
+    z-index: -1;
+    width: 23vw;
+    height: 23vw;
+} */
+/* .BigFlexContainer .flexRightContainer{
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.BigFlexContainer .flexRightContainer .containerTitle{
+    position:relative;
+    left:140%;
+} */
+
+/* .BigFlexContainer .flexRightContainer .containerTitle .titlePage{
+    font-family: 'digital-clock-font';
+    color: #B453A4;
+    font-size: 3vw;
+    font-weight: '300';
+    position: relative;
+} */
+
+
