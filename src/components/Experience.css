@@ -3,7 +3,7 @@
     src: url('../font.ttf');
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     .BigFlexContainer {
         display: flex;
         flex-direction: row;
@@ -35,7 +35,7 @@
 }
 
 
-@media (min-width: 376px) and (max-width: 768px){
+@media (min-width: 401px) and (max-width: 768px){
     .BigFlexContainer {
         display: flex;
         flex-direction: row;
