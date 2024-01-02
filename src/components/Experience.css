@@ -3,7 +3,39 @@
     src: url('../font.ttf');
 }
 
-@media only screen and (max-width: 768px){
+@media (max-width: 375px) {
+    .BigFlexContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .BigFlexContainer .background {
+        display: none;
+    }
+
+    .BigFlexContainer .flexRightContainer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .BigFlexContainer .flexRightContainer .containerTitle {
+        position: relative;
+        left: 57%;
+        /* left: 140%; */
+    }
+
+    .BigFlexContainer .flexRightContainer .containerTitle .titlePage {
+        font-family: 'digital-clock-font';
+        color: #B453A4;
+        font-size: 5vw;
+        font-weight: '300';
+        position: relative;
+    }
+}
+
+
+@media (min-width: 376px) and (max-width: 768px){
     .BigFlexContainer {
         display: flex;
         flex-direction: row;
@@ -28,7 +60,7 @@
     .BigFlexContainer .flexRightContainer .containerTitle .titlePage {
         font-family: 'digital-clock-font';
         color: #B453A4;
-        font-size: 5vw;
+        font-size: 6.5vw;
         font-weight: '300';
         position: relative;
     }

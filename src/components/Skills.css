@@ -62,6 +62,14 @@
         margin-right: 0.2vw;
     }
 
+        .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexDevopsContainer .flexDevOpsImagesContainer{
+        transform: scale(0.85);
+        }
+
+    .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer{
+        transform: scale(0.85);
+    }
+
     .flexBigContainer .flexBodyContainer .flexLeftBodyContainer .flexBackendContainer .flexBackendImagesContainer img {
         margin-right: 0.4vw;
     }
