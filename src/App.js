@@ -22,7 +22,7 @@ function App() {
         </ParallaxLayer>
         <ParallaxLayer offset={2} className="center" id="layer3">
           <Experience />
-          
+          {/* <Companies /> */}
         </ParallaxLayer>
       </Parallax>
 

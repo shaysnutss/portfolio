@@ -3,7 +3,7 @@
     src: url('../font.ttf');
 }
 
-@media (max-width: 415px) {
+@media (max-width: 400px) {
     .BigFlexContainer {
         display: flex;
         flex-direction: row;
@@ -21,7 +21,7 @@
 
     .BigFlexContainer .flexRightContainer .containerTitle {
         position: relative;
-        left: 54%;
+        left: 55%;
         /* left: 140%; */
     }
 
@@ -35,7 +35,7 @@
 }
 
 
-@media (min-width: 415px) and (max-width: 768px){
+@media (min-width: 401px) and (max-width: 768px){
     .BigFlexContainer {
         display: flex;
         flex-direction: row;
@@ -53,7 +53,7 @@
 
     .BigFlexContainer .flexRightContainer .containerTitle {
         position: relative;
-        left:44%;
+        left:57%;
         /* left: 140%; */
     }
 
