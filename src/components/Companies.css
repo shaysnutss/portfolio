@@ -177,8 +177,9 @@
         align-items: center;
         justify-content: center;
         /* left:50%; */
-        /* bottom: 3%; */
+        /* bottom: 4%; */
         margin: 3%;
+        right:3%;
         
     }
 
@@ -186,17 +187,17 @@
         background-color: transparent !important;
         box-shadow: none !important;
         border: 3px solid #1E1E1E;
-        padding: 2.5%;
+        padding: 3%;
     }
 
     .ColumnCardGroup .transparentCard .cardContent .cardTitle {
         font-family: 'digital-clock-font';
         color: #B453A4;
-        font-size: 2vw;
+        font-size: 1.85vw;
         font-weight: '300';
         position: relative;
-        margin-bottom: 3%;
-        margin-top: -2%;
+        margin-bottom: 2%;
+        margin-top: -1%;
     }
 
     .ColumnCardGroup .transparentCard .cardContent .cardDescription {

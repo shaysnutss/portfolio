@@ -40,7 +40,7 @@ const ColumnCardGroup = styled(CardGroup)`
 const cardData = [
     {
         header: 'Citibank',
-        description: 'Impl a SMTP server that receives emails & a UI that accepts multiple file types, which are then parsed & made into Jira Tickets.',
+        description: 'Impl a SMTP server that receives emails & a UI that accepts multiple file types which are parsed into Jira Stories.',
         buttons: [
             {
                 key: 'React', content: 'React'
@@ -80,10 +80,10 @@ const cardData = [
                 key: 'Android Studio', content: 'Android Studio'
             },
             {
-                key: 'Java', content: 'Java'
+                key: 'Shell Scripting', content: 'Shell Scripting'
             },
             {
-                key: 'Shell Scripting', content: 'Shell Scripting'
+                key: 'Java', content: 'Java'
             },
             {
                 key: 'C', content: 'C'
