@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../logo.svg';
 import Spline from '@splinetool/react-spline';
 import './Home.css';
-import bg from '../assets/home/bg.mp4';
+import bg from '../assets/home/cybernetic-human.mp4';
 
 export default function Home() {
     return (
