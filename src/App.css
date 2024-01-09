@@ -33,3 +33,26 @@ div .animation{
   background-color: #060202;
   
 }
+
+#layer4{
+  background-image: url('./assets/about/background2.png');
+  /* Make the background image cover the entire page */
+  background-size: auto auto;
+  background-position: top left;
+  
+
+
+  /* Set the background image to be fixed in the viewport */
+  /* background-attachment: fixed; */
+
+  /* background-position: center center; */
+
+
+  /* Ensure the entire viewport is covered */
+  /* min-height: 100vh; */
+  min-width:100vw;
+  
+  /* Optional: Set a fallback background color */
+  background-color: #000000; /* Fallback color */
+  
+}

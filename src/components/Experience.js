@@ -8,13 +8,13 @@ export default function Experience() {
     return (
     <div className="BigFlexContainer">
       <div className = "background"> 
-        <img src={require("../assets/experience/addition.png")}></img>
+        <img id="circle" src={require("../assets/experience/addition.png")}></img>
       </div>
       <div className="flexRightContainer">
         <div className="containerTitle">
           <h1 className = "titlePage">Experience</h1>
         </div>
-        <div className="content">
+        <div id="content">
           <Companies></Companies>
         </div>
       </div>
